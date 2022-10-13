@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        final String url = "https://www.pc-canada.com/"; //the website url that is being scraped
+        final String url = "http://hyperphysics.phy-astr.gsu.edu/hbase/elacol.html#:~:text=A%20perfectly%20elastic%20collision%20is,of%20energy%20in%20the%20collision."; //the website url that is being scraped
 
 
         try {
@@ -18,6 +18,7 @@ public class Main {
 
             System.out.println(document.outerHtml()); //Output all HTML of the webpage from the url.
         }
+
         catch (Exception ex){
             ex.printStackTrace();
         }
